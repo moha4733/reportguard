@@ -1,0 +1,17 @@
+{
+  "name": "reportguard",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Outlook-integreret platform til sikre servicerapport-mails.",
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "typecheck": "pnpm -r --if-present typecheck",
+    "test": "pnpm -r --if-present test"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
